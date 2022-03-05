@@ -1,0 +1,22 @@
+{
+  "name": "gaspricescraper-front",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm --prefix ./client/ start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmcgirr/Fullstack-Webscraping-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmcgirr/Fullstack-Webscraping-App/issues"
+  },
+  "homepage": "https://github.com/tmcgirr/Fullstack-Webscraping-App#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
