@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tmcgirr/Fullstack-Webscraping-App#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "react-scripts": "^5.0.0"
   }
 }
