@@ -119,7 +119,8 @@ export default function Chart() {
 
   // Fetch data from DB and set items
   useEffect(() => {
-    fetch("http://localhost:5000/gasInfo")
+    // fetch("http://localhost:5000/gasInfo")
+    fetch("/gasInfo")
       .then((res) => res.json())
       .then(
         (result) => {
