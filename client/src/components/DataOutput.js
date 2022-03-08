@@ -10,8 +10,8 @@ export default function DataOutput() {
   const [filterParam, setFilterParam] = useState(["All"]);
 
   useEffect(() => {
-    // fetch("http://localhost:5000/gasInfo")
-    fetch("/gasInfo")
+    fetch("http://localhost:5000/gasInfo")
+      // fetch("/gasInfo")
       .then((res) => res.json())
       .then(
         (result) => {
