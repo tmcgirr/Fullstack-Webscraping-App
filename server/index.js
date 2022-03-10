@@ -9,7 +9,7 @@ app.use(express.json()); //req.body
 
 //Routes
 
-//CREATE (Add price data??)
+//CREATE 
 
 app.post("/gasInfo", async (req, res) => {
   try {
