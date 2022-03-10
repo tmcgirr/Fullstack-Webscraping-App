@@ -21,7 +21,7 @@ fs.readdir(dir, (err, files) => {
         let chunkString = JSON.parse(chunk);
 
         if (
-          // Maybe exclude all blank/NA data??? (Instead of just gasprice)
+          // Exclude 
           chunkString["gas_price"] !== "N/A" &&
           chunkString["gas_price"] !== "/A" &&
           chunkString["gas_price"] !== ""
@@ -36,28 +36,7 @@ fs.readdir(dir, (err, files) => {
   });
 });
 
-//////////////////////////////////////////////////////////////
-// Read File method
 
-// const readFiles = (dirname, onFileContent, onError) => {
-//   fs.readdir(dirname, function (err, filenames) {
-//     if (err) {
-//       onError(err);
-//       return;
-//     }
-//     filenames.forEach(function (filename) {
-//       fs.readFile(dirname + filename, "utf-8", function (err, content) {
-//         if (err) {
-//           onError(err);
-//           return;
-//         }
-//         onFileContent(filename, content);
-//       });
-//     });
-//   });
-// };
-
-/////////////////////////////////////////////////////////
 const insertData = (data) => {
   try {
     const config = {
