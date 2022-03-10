@@ -1,5 +1,7 @@
 # Fullstack-Webscraping-App
 
+![Graph Image](https://github.com/tmcgirr/Fullstack-Webscraping-App/blob/main/graphImg.png?raw=true)
+
 ## Description
 
 This project was created to track the gas prices in a selected city and dynamically display the average price by Gas Type over time. 
